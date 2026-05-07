@@ -41,6 +41,14 @@
       <stop offset="0%" stop-color="#b066fe" stop-opacity="0.4"/>
       <stop offset="100%" stop-color="#00f2fe" stop-opacity="0"/>
     </radialGradient>
+
+    <!-- Cyber Rainbow "黄飞虹" Gradient -->
+    <linearGradient id="flyingRainbow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F5D020" /> <!-- 黄 (Gold/Yellow) -->
+      <stop offset="35%" stop-color="#FF1493" /> <!-- Cyber Pink -->
+      <stop offset="70%" stop-color="#b066fe" /> <!-- Neon Purple -->
+      <stop offset="100%" stop-color="#00f2fe" /> <!-- Neon Cyan -->
+    </linearGradient>
   </defs>
 
   <!-- Background Layer -->
@@ -107,8 +115,8 @@
 
   <!-- Typography -->
   <g transform="translate(60, 95)">
-    <text font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="46" font-weight="800" fill="#ffffff" letter-spacing="-0.5">
-      黄飞虹 <tspan fill="#656d76" font-size="34" font-weight="500">(hrygo)</tspan>
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="46" font-weight="800" letter-spacing="-0.5">
+      <tspan fill="url(#flyingRainbow)">黄飞虹</tspan> <tspan fill="#656d76" font-size="34" font-weight="500">(hrygo)</tspan>
     </text>
     <text y="38" font-family="'JetBrains Mono', 'SF Mono', monospace" font-size="15" font-weight="600" fill="url(#neonCyan)" letter-spacing="2">
       AI INFRASTRUCTURE ARCHITECT
