@@ -8,95 +8,43 @@
 
 <br/>
 
-I build infra for AI agents — from unified access layers to security shields, from watchdog daemons to content pipelines.
+Intelligence is non-deterministic. Infrastructure shouldn't be.
 
-The best tools are invisible. The best agents are trustworthy. I work on both.
+I engineer the boundaries, gateways, and protocols where autonomous agents meet production systems. A model generates the output; I build the state machines, network bridges, and fault-tolerance that make that output usable.
 
----
+────────────────────────────────────────────────────────────────────────────────
 
-### `/// BUILDING`
+### ✦ ENGINEERING
 
-- **⟐** **[HotPlex](https://github.com/hrygo/hotplex)** — Unified access layer for AI Coding Agents. One gateway, every model, zero friction.
-- **⬡** **[OpenClaw DevKit](https://github.com/hrygo/openclaw-devkit)** — Containerized development toolkit for the OpenClaw multi-channel AI productivity platform.
-- **◒** **[ClawReel](https://github.com/hrygo/clawreel)** — AI short-video automation pipeline. From script to publish, agent-driven with HITL checkpoints.
-- **⟁** **[DivineSense](https://github.com/hrygo/divinesense)** — AI-driven personal second brain. Smart agents that automate tasks and filter high-value signals.
-
-<br/>
-
----
-
-### `/// BUILDED`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**[HotPlex Legacy](https://github.com/hrygo/hotplex-legacy)** `INFRA`
-
-The predecessor that proved the concept. Archived — spirit lives on in HotPlex.
-
-`Go`
-
-</td>
-<td width="50%" valign="top">
-
-**[Security Shield](https://github.com/hrygo/security-shield)** `SECURITY`
-
-Multi-layer defense for OpenClaw agents — prompt injection detection, social engineering resistance, privilege escalation prevention.
-
-`TypeScript`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[OpenClaw Watchdog](https://github.com/hrygo/openclaw-watchdog)** `RELIABILITY`
-
-Go daemon that monitors gateway health and auto-recovers on failure. Because agents shouldn't go dark.
-
-`Go`
-
-</td>
-<td width="50%" valign="top">
-
-**[AI Content Studio](https://github.com/hrygo/ai-content-studio)** `MEDIA`
-
-Transform articles into broadcast-quality podcast audio with multi-character dialogue and high-fidelity TTS.
-
-`Python`
-
-</td>
-</tr>
-</table>
+- ◈ **[HotPlex](https://github.com/hrygo/hotplex)** — Unified access layer for AI Coding Agents. Bridging local workers (Claude Code, OpenCode) with enterprise environments (Slack, Feishu) through a dual-driver WebSocket architecture.
+- ◈ **[OpenClaw DevKit](https://github.com/hrygo/openclaw-devkit)** — Containerized development toolkit for the OpenClaw multi-channel AI productivity platform.
+- ◈ **[ClawReel](https://github.com/hrygo/clawreel)** — AI short-video automation pipeline. From script to publish, agent-driven with HITL checkpoints.
+- ◈ **[DivineSense](https://github.com/hrygo/divinesense)** — AI-driven personal second brain. Smart agents that automate tasks and filter high-value signals.
 
 <br/>
 
----
+### ✦ ARSENAL & UTILITIES
 
-### `/// STACK`
+- **[OpenClaw Watchdog](https://github.com/hrygo/openclaw-watchdog)** `RELIABILITY` — Go daemon that monitors gateway health and auto-recovers on failure.
+- **[Security Shield](https://github.com/hrygo/security-shield)** `SECURITY` — Multi-layer defense for OpenClaw agents: prompt injection detection, privilege escalation prevention.
+- **[AI Content Studio](https://github.com/hrygo/ai-content-studio)** `MEDIA` — Transform articles into broadcast-quality podcast audio with multi-character dialogue.
+- **[HotPlex Legacy](https://github.com/hrygo/hotplex-legacy)** `INFRA` — The predecessor that proved the concept.
 
-<table>
-<tr>
-<td>
+<br/>
 
-```
+### ✦ STACK
+
+```text
 LANGUAGES       Go · TypeScript · Python · Shell
 DOMAINS         AI Agent Infra · LLM Gateway · DevSecOps · Content Automation
-PROTOCOLS       MCP · Agent SDK · OpenAI-compatible API
-TOOLS           Claude Code · Docker · GitHub Actions
-FOCUS           Agent Harness · Multi-model Routing · Security · Observability
+PROTOCOLS       MCP · Agent Exchange Protocol (AEP) · Agent SDK · OpenAI API
+INFRASTRUCTURE  WebSockets · SQLite · Docker · Systemd/Launchd
+FOCUS           Agent Harness · State Machines · Observability · AST Mutation
 ```
-
-</td>
-</tr>
-</table>
 
 <br/>
 
----
-
-### `/// METRICS`
+### ✦ TRACE
 
 <div align="left">
 
@@ -120,9 +68,7 @@ FOCUS           Agent Harness · Multi-model Routing · Security · Observabilit
 
 <br/>
 
----
-
-### `/// CONNECT`
+### ✦ CONNECT
 
 <div align="center">
 
@@ -134,13 +80,7 @@ FOCUS           Agent Harness · Multi-model Routing · Security · Observabilit
 <br/>
 
 <div align="center">
-
-<sub>
-
-*Build the infra. The agents will follow.*
-
-</sub>
-
+<sub><i>Reliability is the absence of surprise.</i></sub>
 </div>
 
 <br/>
