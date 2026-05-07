@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff"/>
+      <stop offset="100%" style="stop-color:#3fb950"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="200" fill="url(#bg)" rx="12"/>
+  <rect x="0" y="0" width="900" height="4" fill="url(#accent)" rx="2"/>
+  <text x="50" y="72" font-family="SF Mono, JetBrains Mono, monospace" font-size="32" font-weight="bold" fill="#e6edf3">黄飞虹</text>
+  <text x="50" y="105" font-family="SF Mono, JetBrains Mono, monospace" font-size="16" fill="#8b949e">Full-Stack Builder · AI Agent Architect · Open Source Contributor</text>
+  <text x="50" y="140" font-family="SF Mono, JetBrains Mono, monospace" font-size="13" fill="#58a6ff">// Building tools that make AI agents more useful, more secure, more connected.</text>
+  <rect x="50" y="160" width="40" height="3" fill="#3fb950" rx="1.5"/>
+  <rect x="100" y="160" width="40" height="3" fill="#58a6ff" rx="1.5"/>
+  <rect x="150" y="160" width="40" height="3" fill="#d2a8ff" rx="1.5"/>
+  <text x="850" y="72" font-family="SF Mono, JetBrains Mono, monospace" font-size="48" fill="#21262d" text-anchor="end">⟐</text>
+</svg>
