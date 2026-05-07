@@ -23,7 +23,7 @@
 - ⬡ **[OpenClaw DevKit](https://github.com/hrygo/openclaw-devkit)** — Containerized Agent Toolkit.
   > Integrated development, debugging, and testing toolchain for the OpenClaw multi-channel AI productivity platform. Enforces strict schema validation and cross-provider redundancy.
 
-- 🧠 **[VaultMaster](https://github.com/hrygo/vaultmaster)** — Slack-Native Obsidian Agent.
+- 🧠 **VaultMaster** — Slack-Native Obsidian Agent.
   > Locally-supported PKM bot powered by HotPlex, enabling intelligent `/obsidian-capture` and graph queries directly from enterprise chat.
 
 <br/>
