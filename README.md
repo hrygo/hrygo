@@ -18,7 +18,7 @@ spec:
   motto: "Intelligence is non-deterministic. Infrastructure shouldn't be."
 ```
 
-────────────────────────────────────────────────────────────────────────────────
+---
 
 ### `[MODULES] // Core Routing & Gateways`
 
