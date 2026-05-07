@@ -75,13 +75,13 @@
     <text font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="46" font-weight="800" fill="#ffffff" letter-spacing="-0.5">
       黄飞虹 <tspan fill="#656d76" font-size="34" font-weight="500">(hrygo)</tspan>
     </text>
-    <text y="40" font-family="'JetBrains Mono', 'SF Mono', monospace" font-size="15" font-weight="600" fill="url(#neonCyan)" letter-spacing="2">
+    <text y="38" font-family="'JetBrains Mono', 'SF Mono', monospace" font-size="15" font-weight="600" fill="url(#neonCyan)" letter-spacing="2">
       AI INFRASTRUCTURE ARCHITECT
     </text>
-    <text y="78" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="15" font-weight="400" fill="#8b949e" opacity="0.9">
-      Bridging non-deterministic AI models with highly-reliable systems.
+    <text y="75" font-family="'JetBrains Mono', 'SF Mono', monospace" font-size="14" font-style="italic" fill="#ffffff" opacity="0.85">
+      "Intelligence is non-deterministic. Infrastructure shouldn't be."
     </text>
-    <text y="100" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="15" font-weight="400" fill="#8b949e" opacity="0.9">
+    <text y="100" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="14" font-weight="400" fill="#8b949e" opacity="0.9">
       Architecting gateways, multimodal pipelines, and autonomous agent workflows.
     </text>
   </g>
