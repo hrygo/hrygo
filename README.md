@@ -71,18 +71,15 @@ FOCUS           Fault Tolerance · State Machines · Schema Validation · Cross-
 ### `[TELEMETRY] // System Metrics`
 
 <div align="center">
-  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=hrygo&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=e6edf3" alt="GitHub Stats" width="48%">
-  &nbsp;
-  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=hrygo&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=e6edf3&langs_count=8" alt="Top Languages" width="48%">
+  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=hrygo&show_icons=true&hide_border=true&hide_bg=true&title_color=b066fe&icon_color=00f2fe&text_color=8b949e&text_bold=false" alt="GitHub Stats" width="48%">
+  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=hrygo&layout=compact&hide_border=true&hide_bg=true&title_color=b066fe&text_color=8b949e&langs_count=8" alt="Top Languages" width="48%">
 </div>
-
-<br/>
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=hrygo&theme=dark&background=0d1117&border=21262d&ring=58a6ff&fire=3fb950&currStreakLabel=e6edf3&sideLabels=8b949e&dates=484f58&currStreakNum=e6edf3&sideNums=e6edf3">
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=hrygo&theme=default&background=ffffff&border=d0d7de&ring=58a6ff&fire=3fb950&currStreakLabel=1f2328&sideLabels=656d76&dates=afb8c1&currStreakNum=1f2328&sideNums=1f2328">
-    <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=hrygo">
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=hrygo&background=00000000&border=00000000&ring=b066fe&fire=00f2fe&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff">
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=hrygo&background=00000000&border=00000000&ring=b066fe&fire=00f2fe&currStreakLabel=656d76&sideLabels=656d76&dates=afb8c1&currStreakNum=1f2328&sideNums=1f2328">
+    <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=hrygo&background=00000000&border=00000000&ring=b066fe&fire=00f2fe">
   </picture>
 </div>
 
