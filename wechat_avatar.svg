@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <!-- Dark AI Native Background Gradient -->
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0c0c11" />
+      <stop offset="100%" stop-color="#040406" />
+    </radialGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+
+    <linearGradient id="neonPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b066fe" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+
+    <!-- Neural Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="coreGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="60" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1024" height="1024" fill="url(#bgGlow)" />
+
+  <!-- Symmetrical Avatar Core (Centered at 512, 512) -->
+  <g transform="translate(512, 512)">
+    <!-- Ambient Base Energy Glows -->
+    <circle cx="0" cy="0" r="250" fill="url(#neonPurple)" filter="url(#coreGlow)" opacity="0.25" />
+    <circle cx="0" cy="0" r="120" fill="url(#neonCyan)" filter="url(#coreGlow)" opacity="0.35" />
+
+    <!-- Orbital Infrastructure Rings (Deterministic Bounds) -->
+    <circle cx="0" cy="0" r="300" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.1" stroke-dasharray="10 20"/>
+    <circle cx="0" cy="0" r="360" fill="none" stroke="url(#neonPurple)" stroke-width="3" opacity="0.25" stroke-dasharray="5 25" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="440" fill="none" stroke="url(#neonCyan)" stroke-width="1.5" opacity="0.15" stroke-dasharray="60 40"/>
+
+    <!-- Concentric Symmetrical Gateways (Hexagons) -->
+    <!-- Points for Hexagon: (0, -R), (R*0.866, -R/2), (R*0.866, R/2), (0, R), (-R*0.866, R/2), (-R*0.866, -R/2) -->
+    
+    <!-- Outer Sentinel Hexagon R=240 -->
+    <polygon points="0,-240 207.8,-120 207.8,120 0,240 -207.8,120 -207.8,-120" fill="none" stroke="#00f2fe" stroke-width="3" filter="url(#subtleGlow)" opacity="0.6"/>
+    
+    <!-- Middle Armor Hexagon R=180 -->
+    <polygon points="0,-180 155.8,-90 155.8,90 0,180 -155.8,90 -155.8,-90" fill="none" stroke="#b066fe" stroke-width="6" filter="url(#subtleGlow)" opacity="0.8"/>
+    
+    <!-- Inner Core Solid Hexagon R=90 -->
+    <polygon points="0,-90 77.9,-45 77.9,45 0,90 -77.9,45 -77.9,-45" fill="url(#neonPurple)" filter="url(#glow)" opacity="0.8"/>
+    <polygon points="0,-70 60.6,-35 60.6,35 0,70 -60.6,35 -60.6,-35" fill="url(#neonCyan)" filter="url(#subtleGlow)" opacity="0.9"/>
+    
+    <!-- Deep Core Center -->
+    <circle cx="0" cy="0" r="30" fill="#ffffff" filter="url(#subtleGlow)"/>
+
+    <!-- Deterministic Routing Spines (Radiating Lines) -->
+    <!-- 6 main axes corresponding to hexagon vertices -->
+    <g stroke="#ffffff" stroke-width="2" opacity="0.25" stroke-dasharray="6 12">
+      <line x1="0" y1="-240" x2="0" y2="-480" />
+      <line x1="0" y1="240" x2="0" y2="480" />
+      <line x1="207.8" y1="-120" x2="415.6" y2="-240" />
+      <line x1="-207.8" y1="120" x2="-415.6" y2="240" />
+      <line x1="207.8" y1="120" x2="415.6" y2="240" />
+      <line x1="-207.8" y1="-120" x2="-415.6" y2="-240" />
+    </g>
+
+    <!-- Inflight Neural Packets -->
+    <!-- Top -->
+    <circle cx="0" cy="-300" r="10" fill="#00f2fe" filter="url(#subtleGlow)" />
+    <!-- Bottom Right -->
+    <circle cx="311.7" cy="180" r="12" fill="#b066fe" filter="url(#subtleGlow)" />
+    <!-- Top Left -->
+    <circle cx="-259.8" cy="-150" r="8" fill="#ffffff" filter="url(#subtleGlow)" />
+    <!-- Left Axis -->
+    <circle cx="-360" cy="0" r="6" fill="#00f2fe" filter="url(#subtleGlow)" />
+    <!-- Right Axis -->
+    <circle cx="360" cy="0" r="8" fill="#b066fe" filter="url(#subtleGlow)" />
+
+  </g>
+</svg>
