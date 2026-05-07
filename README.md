@@ -6,43 +6,64 @@
 
 <br/>
 
-Intelligence is non-deterministic. Infrastructure shouldn't be.
-
-I engineer the boundaries, gateways, and protocols where autonomous agents meet production systems. A model generates the output; I build the state machines, network bridges, and fault-tolerance that make that output usable.
+```yaml
+# [SYS_IDENTITY]: Architecting the boundary between non-deterministic AI and deterministic infrastructure.
+apiVersion: v1
+kind: Engineer
+metadata:
+  name: 黄飞虹 (hrygo)
+  role: AI Agent Architect & Full-Stack Builder
+spec:
+  focus: [ "LLM Gateways", "Agent State Machines", "Fault-Tolerance", "DevSecOps" ]
+  motto: "Intelligence is non-deterministic. Infrastructure shouldn't be."
+```
 
 ────────────────────────────────────────────────────────────────────────────────
 
-### ✦ ENGINEERING
+### `[MODULES] // Core Routing & Gateways`
 
-- ◈ **[HotPlex](https://github.com/hrygo/hotplex)** — Unified access layer for AI Coding Agents. Bridging local workers (Claude Code, OpenCode) with enterprise environments (Slack, Feishu) through a dual-driver WebSocket architecture.
-- ◈ **[OpenClaw DevKit](https://github.com/hrygo/openclaw-devkit)** — Containerized development toolkit for the OpenClaw multi-channel AI productivity platform.
-- ◈ **[ClawReel](https://github.com/hrygo/clawreel)** — AI short-video automation pipeline. From script to publish, agent-driven with HITL checkpoints.
-- ◈ **[DivineSense](https://github.com/hrygo/divinesense)** — AI-driven personal second brain. Smart agents that automate tasks and filter high-value signals.
+*The central nervous system for AI agents.*
 
-<br/>
-
-### ✦ ARSENAL & UTILITIES
-
-- **[OpenClaw Watchdog](https://github.com/hrygo/openclaw-watchdog)** `RELIABILITY` — Go daemon that monitors gateway health and auto-recovers on failure.
-- **[Security Shield](https://github.com/hrygo/security-shield)** `SECURITY` — Multi-layer defense for OpenClaw agents: prompt injection detection, privilege escalation prevention.
-- **[AI Content Studio](https://github.com/hrygo/ai-content-studio)** `MEDIA` — Transform articles into broadcast-quality podcast audio with multi-character dialogue.
-- **[HotPlex Legacy](https://github.com/hrygo/hotplex-legacy)** `INFRA` — The predecessor that proved the concept.
+- ⟐ **[HotPlex](https://github.com/hrygo/hotplex)** — **Unified access layer for AI Coding Agents.**
+  Bridging local autonomous workers (Claude Code, OpenCode) with enterprise environments (Slack, Feishu) via a high-concurrency, dual-driver WebSocket architecture.
+- ⬡ **[OpenClaw DevKit](https://github.com/hrygo/openclaw-devkit)** — **Containerized Agent Toolkit.**
+  Integrated development, debugging, and testing toolchain for the OpenClaw multi-channel AI productivity platform.
 
 <br/>
 
-### ✦ STACK
+### `[DAEMONS] // Reliability & Security`
+
+*Zero-trust execution and self-healing infrastructure.*
+
+- 🛡️ **[Security Shield](https://github.com/hrygo/security-shield)** `TS` — Multi-layer defense for OpenClaw agents. Intercepts prompt injections, prevents privilege escalation, and enforces behavioral boundaries.
+- ⏱️ **[OpenClaw Watchdog](https://github.com/hrygo/openclaw-watchdog)** `GO` — Silent observer. Go daemon that monitors gateway health, manages backpressure, and auto-recovers failing agent runtimes.
+- 🏛️ **[HotPlex Legacy](https://github.com/hrygo/hotplex-legacy)** `GO` — The monolithic predecessor that proved the multi-agent gateway concept.
+
+<br/>
+
+### `[PIPELINES] // Autonomous Workflows`
+
+*Agents working in concert to automate content and cognition.*
+
+- ◒ **[ClawReel](https://github.com/hrygo/clawreel)** — Agent-driven short-video automation pipeline. From script synthesis to publish, guided by HITL (Human-in-the-loop) checkpoints.
+- 🎙️ **[AI Content Studio](https://github.com/hrygo/ai-content-studio)** — Transforms raw text into broadcast-quality podcast audio with dynamic multi-character dialogue and high-fidelity TTS routing.
+- ⟁ **[DivineSense](https://github.com/hrygo/divinesense)** — AI-driven personal second brain. Smart agents that ingest, filter, and surface high-value signals to amplify biological cognition.
+
+<br/>
+
+### `[STACK] // Technical Arsenal`
 
 ```text
 LANGUAGES       Go · TypeScript · Python · Shell
 DOMAINS         AI Agent Infra · LLM Gateway · DevSecOps · Content Automation
 PROTOCOLS       MCP · Agent Exchange Protocol (AEP) · Agent SDK · OpenAI API
-INFRASTRUCTURE  WebSockets · SQLite · Docker · Systemd/Launchd
+INFRASTRUCTURE  WebSockets · SQLite (mmap) · Docker · Systemd/Launchd
 FOCUS           Agent Harness · State Machines · Observability · AST Mutation
 ```
 
 <br/>
 
-### ✦ TRACE
+### `[TELEMETRY] // System Metrics`
 
 <div align="left">
 
@@ -64,19 +85,17 @@ FOCUS           Agent Harness · State Machines · Observability · AST Mutation
 
 <br/>
 
-### ✦ CONNECT
+### `[HANDSHAKE] // Establish Connection`
 
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-hrygo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/hrygo)
 &nbsp;&nbsp;
 
-</div>
-
 <br/>
 
-<div align="center">
 <sub><i>Reliability is the absence of surprise.</i></sub>
+
 </div>
 
 <br/>
