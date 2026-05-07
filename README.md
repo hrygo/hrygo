@@ -46,9 +46,9 @@ FOCUS           Agent Harness · State Machines · Observability · AST Mutation
 
 <div align="left">
 
-<img src="https://github-readme-stats.vercel.app/api?username=hrygo&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=e6edf3" alt="GitHub Stats" width="49%">
+<img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=hrygo&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=e6edf3" alt="GitHub Stats" width="49%">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hrygo&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=e6edf3&langs_count=8" alt="Top Languages" width="49%">
+<img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=hrygo&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=e6edf3&langs_count=8" alt="Top Languages" width="49%">
 
 </div>
 
