@@ -35,39 +35,59 @@
       <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.03" />
       <circle cx="0" cy="0" r="1.5" fill="#ffffff" fill-opacity="0.08" />
     </pattern>
+
+    <!-- Core Hub Gradient -->
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#b066fe" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
   <!-- Background Layer -->
   <rect width="900" height="250" fill="url(#bgGlow)" rx="12" />
   <rect width="900" height="250" fill="url(#grid)" rx="12" />
 
-  <!-- Abstract AI Nodes & Routing Path (Representing Gateways) -->
-  <g transform="translate(680, 125)" stroke-width="1.5" fill="none">
-    <!-- Glowing background blurs for AI depth -->
-    <circle cx="0" cy="0" r="80" fill="url(#neonPurple)" opacity="0.15" filter="url(#glow)"/>
-    <circle cx="-100" cy="-40" r="60" fill="url(#neonCyan)" opacity="0.15" filter="url(#glow)"/>
-    <circle cx="80" cy="50" r="50" fill="#3fb950" opacity="0.08" filter="url(#glow)"/>
-    
-    <!-- Connection lines -->
-    <path d="M -150 0 C -80 0, -40 -60, 0 -60" stroke="url(#neonCyan)" opacity="0.4" />
-    <path d="M -150 0 C -80 0, -40 60, 0 60" stroke="url(#neonPurple)" opacity="0.4" />
-    <path d="M 0 -60 C 50 -60, 70 -10, 120 -10" stroke="url(#neonCyan)" opacity="0.3" />
-    <path d="M 0 60 C 50 60, 70 10, 120 10" stroke="url(#neonPurple)" opacity="0.3" />
+  <!-- Advanced Architectural Gateway Graphic -->
+  <g transform="translate(700, 125)">
+    <!-- Ambient Core Glow -->
+    <circle cx="0" cy="0" r="110" fill="url(#coreGlow)" filter="url(#glow)"/>
+    <circle cx="0" cy="0" r="55" fill="url(#neonCyan)" opacity="0.15" filter="url(#glow)"/>
 
-    <!-- Core Nodes -->
-    <circle cx="-150" cy="0" r="6" fill="#ffffff" filter="url(#subtleGlow)"/>
-    <circle cx="-150" cy="0" r="16" stroke="#ffffff" opacity="0.2" />
+    <!-- Orbital Rings (Deterministic Bounds) -->
+    <circle cx="0" cy="0" r="65" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.15" stroke-dasharray="4 6"/>
+    <circle cx="0" cy="0" r="90" fill="none" stroke="url(#neonPurple)" stroke-width="1.5" opacity="0.3" stroke-dasharray="2 12" stroke-linecap="round"/>
     
-    <circle cx="0" cy="-60" r="5" fill="url(#neonCyan)" filter="url(#subtleGlow)"/>
-    <circle cx="0" cy="60" r="5" fill="url(#neonPurple)" filter="url(#subtleGlow)"/>
+    <!-- Outer Network Nodes (AI Agents) -->
+    <path d="M -110 -40 L -50 -20 L 0 -60 L 50 -30 L 120 -50" fill="none" stroke="url(#neonCyan)" stroke-width="1.5" opacity="0.35"/>
+    <path d="M -100 50 L -40 20 L 0 60 L 60 20 L 130 40" fill="none" stroke="url(#neonPurple)" stroke-width="1.5" opacity="0.35"/>
     
-    <circle cx="120" cy="-10" r="3.5" fill="#ffffff" opacity="0.8"/>
-    <circle cx="120" cy="10" r="3.5" fill="#ffffff" opacity="0.8"/>
+    <!-- Central Deterministic Gateway (Hexagon) -->
+    <polygon points="0,-28 24,-14 24,14 0,28 -24,14 -24,-14" fill="none" stroke="#00f2fe" stroke-width="2" filter="url(#subtleGlow)" opacity="0.8"/>
+    <polygon points="0,-16 14,-8 14,8 0,16 -14,8 -14,-8" fill="url(#neonPurple)" opacity="0.6" filter="url(#subtleGlow)"/>
 
-    <!-- Data Packets -->
-    <circle cx="-80" cy="-33" r="2.5" fill="#00f2fe" filter="url(#subtleGlow)"/>
-    <circle cx="-60" cy="48" r="2.5" fill="#b066fe" filter="url(#subtleGlow)"/>
-    <circle cx="45" cy="-45" r="2" fill="#00f2fe" filter="url(#subtleGlow)"/>
+    <!-- High-Concurrency Data Streams -->
+    <!-- Input Streams -->
+    <path d="M -160 0 C -100 0, -60 -14, -24 -14" fill="none" stroke="#00f2fe" stroke-width="2" opacity="0.6" filter="url(#subtleGlow)"/>
+    <path d="M -160 20 C -100 20, -60 14, -24 14" fill="none" stroke="#b066fe" stroke-width="2" opacity="0.6" filter="url(#subtleGlow)"/>
+    
+    <!-- Output Streams -->
+    <path d="M 24 -14 C 60 -14, 90 -35, 140 -35" fill="none" stroke="#00f2fe" stroke-width="1.5" opacity="0.5"/>
+    <path d="M 24 14 C 60 14, 90 0, 140 0" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.25" stroke-dasharray="3 3"/>
+    <path d="M 0 28 C 30 55, 70 45, 130 55" fill="none" stroke="#b066fe" stroke-width="1.5" opacity="0.5"/>
+
+    <!-- Dynamic Inflight Packets -->
+    <circle cx="-110" cy="-6" r="3" fill="#ffffff" filter="url(#subtleGlow)"/>
+    <circle cx="-80" cy="17" r="3" fill="#ffffff" filter="url(#subtleGlow)"/>
+    <circle cx="70" cy="-22" r="2.5" fill="#00f2fe"/>
+    <circle cx="90" cy="48" r="2.5" fill="#b066fe"/>
+
+    <!-- Routing Hub Intersections -->
+    <circle cx="-50" cy="-20" r="3" fill="#00f2fe" filter="url(#subtleGlow)"/>
+    <circle cx="0" cy="-60" r="3" fill="#b066fe" filter="url(#subtleGlow)"/>
+    <circle cx="50" cy="-30" r="3" fill="#ffffff" opacity="0.8"/>
+    <circle cx="-40" cy="20" r="3" fill="#b066fe" filter="url(#subtleGlow)"/>
+    <circle cx="0" cy="60" r="3" fill="#00f2fe" filter="url(#subtleGlow)"/>
+    <circle cx="60" cy="20" r="3" fill="#ffffff" opacity="0.8"/>
   </g>
 
   <!-- Typography -->
