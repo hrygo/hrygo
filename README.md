@@ -1,9 +1,7 @@
-<div align="left">
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="header.svg">
-  <source media="(prefers-color-scheme: light)" srcset="header.svg">
-  <img alt="黄飞虹 — Full-Stack Builder & AI Agent Architect" src="header.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hrygo/hrygo/main/header.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hrygo/hrygo/main/header.svg">
+  <img alt="黄飞虹 — Full-Stack Builder & AI Agent Architect" src="https://raw.githubusercontent.com/hrygo/hrygo/main/header.svg" width="100%">
 </picture>
 
 <br/>
@@ -61,8 +59,6 @@ FOCUS           Agent Harness · State Machines · Observability · AST Mutation
   <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=hrygo&theme=default&background=ffffff&border=d0d7de&ring=58a6ff&fire=3fb950&currStreakLabel=1f2328&sideLabels=656d76&dates=afb8c1&currStreakNum=1f2328&sideNums=1f2328">
   <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=hrygo">
 </picture>
-
-</div>
 
 </div>
 
