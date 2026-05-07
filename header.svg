@@ -98,8 +98,10 @@
     <text y="38" font-family="'JetBrains Mono', 'SF Mono', monospace" font-size="15" font-weight="600" fill="url(#neonCyan)" letter-spacing="2">
       AI INFRASTRUCTURE ARCHITECT
     </text>
-    <text y="75" font-family="'JetBrains Mono', 'SF Mono', monospace" font-size="14" font-style="italic" fill="#ffffff" opacity="0.85">
-      "Intelligence is non-deterministic. Infrastructure shouldn't be."
+    <text y="75" font-family="'JetBrains Mono', 'SF Mono', monospace" font-size="14" font-style="italic">
+      <tspan font-family="Georgia, 'Times New Roman', serif" font-size="28" font-style="normal" fill="url(#neonCyan)" dy="6">“</tspan>
+      <tspan fill="#e6edf3" opacity="0.9" dy="-6"> Intelligence is non-deterministic. Infrastructure shouldn't be. </tspan>
+      <tspan font-family="Georgia, 'Times New Roman', serif" font-size="28" font-style="normal" fill="url(#neonPurple)" dy="6">”</tspan>
     </text>
     <text y="100" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="14" font-weight="400" fill="#8b949e" opacity="0.9">
       Architecting gateways, multimodal pipelines, and autonomous agent workflows.
