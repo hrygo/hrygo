@@ -14,22 +14,33 @@
 
 <br/>
 
-### `[MODULES] // Core Routing & Gateways`
-*The central nervous system for AI agents.*
+### `[CORE] // Most Active`
+*Ranked by commit frequency — the systems I ship to every day.*
 
-- ⟐ **[HotPlex](https://github.com/hrygo/hotplex)** — Enterprise AI Gateway & Multi-Agent Router.
+- ⟐ **[HotPlex](https://github.com/hrygo/hotplex)** `[~1.1k commits]` — Enterprise AI Gateway & Multi-Agent Router.
   > High-concurrency, WebSocket-driven architecture bridging local autonomous workers (Claude Code, OpenCode) with enterprise IM platforms (Slack, Feishu). Features multi-model routing, auto-retry heuristics, and zero-downtime high-availability orchestration.
 
-- ⬡ **[OpenClaw DevKit](https://github.com/hrygo/openclaw-devkit)** — Containerized Agent Toolkit.
-  > Integrated development, debugging, and testing toolchain for the OpenClaw multi-channel AI productivity platform. Enforces strict schema validation and cross-provider redundancy.
+- 🎙️ **[SpeechRail](https://github.com/hrygo/SpeechRail)** `[~537 commits]` — Local-First ASR/TTS Speech Service.
+  > High-performance, local-first ASR + TTS runtime with OpenAI-compatible APIs, optimized for Apple Silicon (MLX).
 
-- 🧠 **VaultMaster** — Slack-Native Obsidian Agent.
-  > Locally-supported PKM bot powered by HotPlex, enabling intelligent `/obsidian-capture` and graph queries directly from enterprise chat.
+- ◈ **[Sona](https://github.com/hrygo/sona)** `[~305 commits]` — 全本地离线实时语音交互 / 智能会议助手 / Inner OS 伴侣.
+  > Apple Silicon native, Chinese-first. Real-time offline voice interaction, smart meeting assistance, and a companion layer for the Inner OS ecosystem.
+
+- 🎧 **[AI Content Studio](https://github.com/hrygo/ai-content-studio)** `[~74 commits]` — Audio Generation Engine.
+  > Transforms raw text into broadcast-quality podcast audio with dynamic multi-character dialogue and high-fidelity TTS routing.
+
+- ⚙️ **[SparkForge](https://github.com/hrygo/SparkForge)** `[~51 commits]` — 高风险决策高保真智能框架.
+  > AI 理事会辩论（The Council）、原子化安全机制、外科手术式文档演进，确保产出是经过压力测试、可直接落地的生产力资产。
+
+- 🎬 **[ClawReel](https://github.com/hrygo/clawreel)** `[~49 commits]` — Agent-Driven Short-Video Automation Pipeline.
+  > From script synthesis to publish, guided by HITL (Human-in-the-loop) checkpoints.
+
+<small>*All-time commit counts on each repo's default branch, measured 2026-09-10.*</small>
 
 <br/>
 
-### `[DAEMONS] // Reliability & Security`
-*Zero-trust execution and self-healing infrastructure.*
+### `[SUPPORTING] // Agents, Security & Reliability`
+*The systems that keep the core running safely.*
 
 - 🛡️ **[Security Shield](https://github.com/hrygo/security-shield)** `[TS]` — Multi-layer defense for OpenClaw agents.
   > Intercepts prompt injections, prevents privilege escalation, and enforces behavioral boundaries.
@@ -37,22 +48,14 @@
 - ⏱️ **[OpenClaw Watchdog](https://github.com/hrygo/openclaw-watchdog)** `[GO]` — Silent observer monitoring gateway health.
   > Manages backpressure, diagnoses runtime anomalies, and auto-recovers failing agent processes.
 
-- 🏛️ **[HotPlex Legacy](https://github.com/hrygo/hotplex-legacy)** `[GO]` — The monolithic predecessor.
-  > Validated the initial multi-agent gateway concept.
+- 👁️ **[PhantomStream](https://github.com/hrygo/phantom-stream)** `[GO]` — Dynamic PDF Tracking & Protection.
+  > Dynamic tracking and protection for PDF documents — a multi-anchor defense system hardened through real red-team / blue-team exercises.
 
-<br/>
+- 🤝 **[Hikmah](https://github.com/hrygo/hikmah)** `[PY]` — Private Human–Agent Collaboration Community.
+  > Identity management, granular permissions, shared context, approval workflows, and full audit trails.
 
-### `[PIPELINES] // Autonomous Workflows`
-*Agents working in concert to automate content and cognition.*
-
-- ◒ **[ClawReel](https://github.com/hrygo/clawreel)** — Agent-driven short-video automation pipeline.
-  > From script synthesis to publish, guided by HITL (Human-in-the-loop) checkpoints.
-
-- 🎙️ **[AI Content Studio](https://github.com/hrygo/ai-content-studio)** — Audio Generation Engine.
-  > Transforms raw text into broadcast-quality podcast audio with dynamic multi-character dialogue and high-fidelity TTS routing.
-
-- ⟁ **[DivineSense](https://github.com/hrygo/divinesense)** — AI-driven personal second brain.
-  > Smart agents that ingest, filter, and surface high-value signals to amplify biological cognition.
+- 🧠 **VaultMaster** — Slack-Native Obsidian Agent.
+  > Locally-supported PKM bot powered by HotPlex, enabling intelligent `/obsidian-capture` and graph queries directly from enterprise chat.
 
 <br/>
 
