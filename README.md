@@ -84,8 +84,7 @@
 ### `[ STACK ] // Technical Arsenal`
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=go,python,swift,c,ts,docker,apple,linux,git,github,fastapi,redis" alt="技术栈" width="420"><br><br>
-  <img src="https://skillicons.dev/icons?i=ml,docker,websocket" alt="协议" width="160">
+  <img src="https://skillicons.dev/icons?i=go,python,swift,c,ts,docker,apple,linux,git,github,fastapi,redis" alt="技术栈" width="420">
 </div>
 
 <details>
