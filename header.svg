@@ -116,7 +116,7 @@
   <!-- Typography -->
   <g transform="translate(60, 95)">
     <text font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="46" font-weight="800" letter-spacing="-0.5">
-      <tspan fill="url(#flyingRainbow)">黄飞虹</tspan> <tspan fill="#656d76" font-size="34" font-weight="500">(hrygo)</tspan>
+      <tspan fill="url(#flyingRainbow)">黄飞虹</tspan> <tspan fill="#7d8590" font-size="34" font-weight="500">(hrygo)</tspan>
     </text>
     <text y="38" font-family="'JetBrains Mono', 'SF Mono', monospace" font-size="15" font-weight="600" fill="url(#neonCyan)" letter-spacing="2">
       AI INFRASTRUCTURE ARCHITECT
@@ -131,6 +131,6 @@
   <!-- Status indicator -->
   <g transform="translate(60, 215)">
     <circle cx="5" cy="-4" r="4.5" fill="#3fb950" filter="url(#subtleGlow)" />
-    <text x="18" font-family="'JetBrains Mono', 'SF Mono', monospace" font-size="12" font-weight="500" fill="#656d76" letter-spacing="0.5">SYSTEMS ONLINE // MULTI-AGENT ROUTING ACTIVE</text>
+    <text x="18" font-family="'JetBrains Mono', 'SF Mono', monospace" font-size="12" font-weight="500" fill="#7d8590" letter-spacing="0.5">SYSTEMS ONLINE // MULTI-AGENT ROUTING ACTIVE</text>
   </g>
 </svg>
