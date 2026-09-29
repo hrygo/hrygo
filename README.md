@@ -117,14 +117,14 @@ FOCUS           Fault Tolerance · State Machines · Schema Validation · Cross-
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-anuraghazra1.vercel.app/api?username=hrygo&show_icons=true&hide_border=true&hide_bg=true&title_color=b066fe&icon_color=00f2fe&text_color=8b949e&text_bold=false">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-anuraghazra1.vercel.app/api?username=hrygo&show_icons=true&hide_border=true&hide_bg=true&title_color=6366f1&icon_color=0969da&text_color=57606a&text_bold=false">
-    <img alt="GitHub Stats" src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=hrygo&show_icons=true&hide_border=true&hide_bg=true&title_color=b066fe&icon_color=00f2fe&text_color=8b949e&text_bold=false" width="48%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-anuraghazra1.vercel.app/api?username=hrygo&show_icons=true&hide_border=true&bg_color=0d1117&title_color=b066fe&icon_color=00f2fe&text_color=8b949e&text_bold=false">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-anuraghazra1.vercel.app/api?username=hrygo&show_icons=true&hide_border=true&bg_color=ffffff&title_color=6366f1&icon_color=0969da&text_color=57606a&text_bold=false">
+    <img alt="GitHub Stats" src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=hrygo&show_icons=true&hide_border=true&bg_color=0d1117&title_color=b066fe&icon_color=00f2fe&text_color=8b949e&text_bold=false" width="48%">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=hrygo&layout=compact&hide_border=true&hide_bg=true&title_color=b066fe&text_color=8b949e&langs_count=8">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=hrygo&layout=compact&hide_border=true&hide_bg=true&title_color=6366f1&text_color=57606a&langs_count=8">
-    <img alt="Top Languages" src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=hrygo&layout=compact&hide_border=true&hide_bg=true&title_color=b066fe&text_color=8b949e&langs_count=8" width="48%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=hrygo&layout=compact&hide_border=true&bg_color=0d1117&title_color=b066fe&text_color=8b949e&langs_count=8">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=hrygo&layout=compact&hide_border=true&bg_color=ffffff&title_color=6366f1&text_color=57606a&langs_count=8">
+    <img alt="Top Languages" src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=hrygo&layout=compact&hide_border=true&bg_color=0d1117&title_color=b066fe&text_color=8b949e&langs_count=8" width="48%">
   </picture>
 </div>
 
