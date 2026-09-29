@@ -8,9 +8,16 @@
 
 <br/>
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=46&customColorList=0c0c11,b066fe&text=AI+Infrastructure+Architect&fontSize=21" alt="AI Infrastructure Architect">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=46&customColorList=0c0c11,00f2fe&text=AI+Agent+Infra+%C2%B7+LLM+Gateways+%C2%B7+Multimodal&fontSize=21" alt="AI Agent Infra · LLM Gateways · Multimodal">
+</p>
+
+<br/>
+
 > **"Intelligence is non-deterministic. Infrastructure shouldn't be."**
 >
-> — Architecting the boundary between non-deterministic AI and highly-reliable systems. Focused on **AI Gateways**, **Agent Orchestration**, **Multimodal Pipelines**, and **DevSecOps** toolchains.
+> — Architecting the boundary between non-deterministic AI and highly-reliable systems.
 
 <br/>
 
@@ -18,77 +25,92 @@
 
 <table>
   <tr>
-    <td width="32%">⟐ <a href="https://github.com/hrygo/hotplex"><b>HotPlex</b></a><br><sub>Unified Access Layer for AI Coding Agent</sub></td>
+    <td width="30%">⟐ <a href="https://github.com/hrygo/hotplex"><b>HotPlex</b></a><br><sub>Unified Access Layer for AI Coding Agent</sub></td>
+    <td width="18%"><img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"><br><sub>Apache-2.0</sub></td>
     <td width="20%"><b>1,351</b> commits<br><sub>286 in the last 90d</sub></td>
-    <td width="18%">Go · Apache-2.0</td>
-    <td width="14%">50 ★</td>
-    <td width="16%">updated 2026-09-12</td>
+    <td width="16%"><b>50 ★</b><br><sub>updated 2026-09-12</sub></td>
+    <td width="16%"><a href="https://github.com/hrygo/hotplex"><img src="https://img.shields.io/badge/-HotPlex-b066fe?style=flat-square&logo=github&logoColor=white" alt="HotPlex"></a></td>
+  </tr>
+  <tr>
+    <td colspan="5">
+      High-concurrency, WebSocket-driven architecture bridging local autonomous workers
+      (Claude Code, OpenCode) with enterprise IM platforms (Slack, Feishu) — multi-model routing,
+      auto-retry heuristics, and zero-downtime orchestration.
+      <br><br>
+      <b>累计维护最多。</b>唯一一个有 90 天以前历史、且今天仍在交付的项目。
+    </td>
   </tr>
 </table>
-
-> **累计维护最多。** High-concurrency, WebSocket-driven architecture bridging local autonomous workers (Claude Code, OpenCode) with enterprise IM platforms (Slack, Feishu) — multi-model routing, auto-retry heuristics, and zero-downtime orchestration.
->
-> 唯一一个有 90 天以前历史、且今天仍在交付的项目：1,351 commits lifetime，窗口内仍有 286。
 
 <br/>
 
 ### `[ NOW ] // 近期高频维护`
 
-*Ranked by commits on the default branch since **2026-07-01**, active projects only — what is actually shipping right now.*
+*Ranked by commits on the default branch since **2026-07-01**, active projects only.*
 
-- 🎙️ **[SpeechRail](https://github.com/hrygo/SpeechRail)** `[Python] [MIT] [1,055 commits / 90d] [2026-09-29]` — Local-First ASR/TTS Speech Service.
-  > High-performance, local-first ASR + TTS runtime with OpenAI-compatible APIs, optimized for Apple Silicon (MLX). The highest-velocity project in the portfolio — the entire repository was built inside the last 90 days.
+- 🎙️ **[SpeechRail](https://github.com/hrygo/SpeechRail)** <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/1,055_commits_90d-b066fe?style=flat-square" alt="1,055 commits in 90d"> <sub>2026-09-29</sub><br>
+  Local-First ASR/TTS Speech Service — high-performance, fully local ASR + TTS runtime with OpenAI-compatible APIs, optimized for Apple Silicon (MLX). 整个仓库都在近 90 天内建成，是当前速度最快的项目。
 
-- ⟐ **[HotPlex](https://github.com/hrygo/hotplex)** `[Go] [Apache-2.0] [286 commits / 90d] [2026-09-12]` — Unified Access Layer for AI Coding Agent.
-  > WebSocket-driven gateway bridging local autonomous workers (Claude Code, OpenCode) with enterprise IM (Slack, Feishu). Multi-model routing, auto-retry heuristics, zero-downtime orchestration. See [FLAGSHIP](#-flagship--旗舰项目) above.
+- 🕯️ **[WorldofMysteries](https://github.com/hrygo/WorldofMysteries)** <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/179_commits_90d-b066fe?style=flat-square" alt="179 commits in 90d"> <sub>2026-09-29</sub><br>
+  《诡秘世界》AI 互动叙事游戏 —— 世界不会重置，角色不会失忆。语音驱动的 AI 互动叙事：维多利亚蒸汽朋克 × 克苏鲁神秘学，宇宙按回合持续演化。SwiftUI macOS 原生客户端 + 本地 LLM 引擎。
 
-- 🕯️ **[WorldofMysteries](https://github.com/hrygo/WorldofMysteries)** `[Python] [Apache-2.0] [179 commits / 90d] [2026-09-29]` — 《诡秘世界》AI 互动叙事游戏.
-  > 世界不会重置，角色不会失忆。语音驱动的 AI 互动叙事：维多利亚蒸汽朋克 × 克苏鲁神秘学，宇宙按回合持续演化。SwiftUI macOS 原生客户端 + 本地 LLM 引擎。
+- 🃏 **[lotm-card-art](https://github.com/hrygo/lotm-card-art)** <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift"> <img src="https://img.shields.io/badge/92_commits_90d-b066fe?style=flat-square" alt="92 commits in 90d"> <sub>2026-09-18</sub><br>
+  《诡秘之主》成神途径卡牌制作脚手架 —— 生成式艺术作为可复现的构建产物，而不只是成品图。
 
-- 🃏 **[lotm-card-art](https://github.com/hrygo/lotm-card-art)** `[Swift] [92 commits / 90d] [2026-09-18]` — 《诡秘之主》成神途径卡牌制作脚手架.
-  > A Swift scaffold for generating the 22 pathways / 220 sequence cards of *Lord of the Mysteries* — generative art as a reproducible build artifact.
+- 🖼️ **[ImageHive](https://github.com/hrygo/ImageHive)** <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift"> <img src="https://img.shields.io/badge/75_commits_90d-b066fe?style=flat-square" alt="75 commits in 90d"> <sub>2026-09-26</sub><br>
+  Resident Local Image Service for AI Agents —— 一份共享的 SenseNova-U1.5 权重，六个 MCP 工具（generate / edit / describe / options / status / unload），Apple silicon 上一条命令装好。
 
-- 🖼️ **[ImageHive](https://github.com/hrygo/ImageHive)** `[Swift] [MIT] [75 commits / 90d] [2026-09-26]` — Resident Local Image Service for AI Agents.
-  > One shared copy of the SenseNova-U1.5 weights, six MCP tools (generate / edit / describe / options / status / unload), one-command install on Apple silicon.
-
-- 🤝 **[Hikmah](https://github.com/hrygo/hikmah)** `[Python] [Apache-2.0] [21 commits / 90d] [2026-09-17]` — 群贤 · Private Human–Agent Collaboration Community.
-  > Identity management, granular permissions, shared context, approval workflows, and full audit trails for small teams.
-
-### `[ SUPPORTING ] // Agents, Security & Reliability`
-
-*The systems that keep the core running safely.*
-
-- ⏱️ **[OpenClaw Watchdog](https://github.com/hrygo/openclaw-watchdog)** `[Go]` — Silent observer monitoring gateway health.
-  > Manages backpressure, diagnoses runtime anomalies, and auto-recovers failing agent processes.
-
-- 🛡️ **[Security Shield](https://github.com/hrygo/security-shield)** `[TypeScript] [MIT]` — Multi-layer defense for OpenClaw agents.
-  > Intercepts prompt injections, prevents privilege escalation, and enforces behavioral boundaries.
-
-- 👁️ **[PhantomStream](https://github.com/hrygo/phantom-stream)** `[Go]` — Dynamic PDF Tracking & Protection.
-  > A multi-anchor defense system hardened through real red-team / blue-team exercises.
-
-- 🔌 **[responses-compat](https://github.com/hrygo/responses-compat)** `[Go]` — 本机 OpenAI Responses API 适配代理.
-  > 单固定上游、仅监听 loopback、模型精确白名单。在 `Codex → CLIProxyAPI → Muse → Responses Compat → OpenCode` 链路上做受控变换：展开工具参数的本地 Schema `$ref`、为超长工具名生成确定性别名、清理不稳定的 reasoning `id`。
+- 🤝 **[Hikmah](https://github.com/hrygo/hikmah)** <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/21_commits_90d-b066fe?style=flat-square" alt="21 commits in 90d"> <sub>2026-09-17</sub><br>
+  群贤 · Private Human–Agent Collaboration Community —— 身份管理、细粒度权限、共享上下文、审批流与完整审计。
 
 <br/>
 
-### `[ ARCHIVE ] // 早期项目`
+### `[ SUPPORTING ] // Agents, Security & Reliability`
 
-*Shipped, now dormant or archived — kept public as prior art.*
+- ⏱️ **[OpenClaw Watchdog](https://github.com/hrygo/openclaw-watchdog)** <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"><br>
+  管理背压、诊断运行时异常，自动拉起挂掉的 Agent 进程。
 
-[![gosms](https://img.shields.io/badge/gosms-51★-00f2fe?style=flat-square&logo=go&logoColor=white)](https://github.com/hrygo/gosms) · [![clawreel](https://img.shields.io/badge/clawreel-11★-00f2fe?style=flat-square)](https://github.com/hrygo/clawreel) · [SparkForge](https://github.com/hrygo/SparkForge) · [council](https://github.com/hrygo/council) · [SpecBuilder](https://github.com/hrygo/SpecBuilder) · [ai-content-studio](https://github.com/hrygo/ai-content-studio) · [dialecta](https://github.com/hrygo/dialecta) · [Sona](https://github.com/hrygo/sona) · [echomind](https://github.com/hrygo/echomind) · [phantom-stream](https://github.com/hrygo/phantom-stream) · [gomockserver](https://github.com/hrygo/gomockserver) · [kratos-sms](https://github.com/hrygo/kratos-sms) · [obsidian-skills](https://github.com/hrygo/obsidian-skills) · [openclaw-watchdog](https://github.com/hrygo/openclaw-watchdog) · [security-shield](https://github.com/hrygo/security-shield)
+- 🛡️ **[Security Shield](https://github.com/hrygo/security-shield)** <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"> <img src="https://img.shields.io/badge/MIT-3fb950?style=flat-square" alt="MIT"><br>
+  拦截 prompt injection、阻断权限升级，强制行为边界。
+
+- 👁️ **[PhantomStream](https://github.com/hrygo/phantom-stream)** <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"><br>
+  动态 PDF 追踪与保护 —— 经真实红蓝对抗打磨的多锚点防御体系。
+
+- 🔌 **[responses-compat](https://github.com/hrygo/responses-compat)** <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"><br>
+  本机 OpenAI Responses API 适配代理：单固定上游、仅监听 loopback、模型精确白名单。
 
 <br/>
 
 ### `[ STACK ] // Technical Arsenal`
 
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=go,python,swift,c,ts,docker,apple,linux,git,github,fastapi,redis" alt="技术栈" width="420"><br><br>
+  <img src="https://skillicons.dev/icons?i=ml,docker,websocket" alt="协议" width="160">
+</div>
+
+<details>
+<summary><b>展开技术栈详情</b>（领域 / 协议 / 基础设施 / 关注点）</summary>
+
 ```text
-LANGUAGES       Python · Swift · Go · C · TypeScript · Shell
+LANGUAGES       Go · Python · Swift · C · TypeScript · Shell
 DOMAINS         AI Agent Infra · LLM Gateways · Multimodal Systems · Real-time Media
 PROTOCOLS       MCP · Agent Exchange Protocol (AEP) · WebSocket · MRCP · OpenAI API
 INFRASTRUCTURE  Docker (Multi-stage) · Traefik · MLX · Bun · Systemd
 FOCUS           Fault Tolerance · State Machines · Schema Validation · Cross-Provider Redundancy
 ```
+
+</details>
+
+<br/>
+
+### `[ ARCHIVE ] // 早期项目`
+
+<details>
+<summary><b>展开 15 个已停更或已归档的项目</b>（保留公开作为历史资产）</summary>
+
+[![gosms](https://img.shields.io/badge/gosms-51%E2%98%85-00f2fe?style=flat-square&logo=go&logoColor=white)](https://github.com/hrygo/gosms) · [![clawreel](https://img.shields.io/badge/clawreel-11%E2%98%85-00f2fe?style=flat-square)](https://github.com/hrygo/clawreel) · [SparkForge](https://github.com/hrygo/SparkForge) · [council](https://github.com/hrygo/council) · [SpecBuilder](https://github.com/hrygo/SpecBuilder) · [ai-content-studio](https://github.com/hrygo/ai-content-studio) · [dialecta](https://github.com/hrygo/dialecta) · [Sona](https://github.com/hrygo/sona) · [echomind](https://github.com/hrygo/echomind) · [phantom-stream](https://github.com/hrygo/phantom-stream) · [gomockserver](https://github.com/hrygo/gomockserver) · [kratos-sms](https://github.com/hrygo/kratos-sms) · [obsidian-skills](https://github.com/hrygo/obsidian-skills) · [openclaw-watchdog](https://github.com/hrygo/openclaw-watchdog) · [security-shield](https://github.com/hrygo/security-shield)
+
+</details>
 
 <br/>
 
@@ -110,7 +132,7 @@ FOCUS           Fault Tolerance · State Machines · Schema Validation · Cross-
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=hrygo&background=00000000&border=00000000&ring=b066fe&fire=00f2fe&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff">
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=hrygo&background=00000000&border=00000000&ring=6366f1&fire=0969da&currStreakLabel=57606a&dates=57606a&currStreakNum=24292f&sideNums=24292f">
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=hrygo&background=00000000&border=00000000&ring=6366f1&fire=0969da&currStreakLabel=57606a&sideLabels=57606a&dates=57606a&currStreakNum=24292f&sideNums=24292f">
     <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=hrygo&background=00000000&border=00000000&ring=b066fe&fire=00f2fe">
   </picture>
 </div>
