@@ -9,8 +9,8 @@
 <br/>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=46&customColorList=0c0c11,b066fe&text=AI+Infrastructure+Architect&fontSize=21" alt="AI Infrastructure Architect">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=46&customColorList=0c0c11,00f2fe&text=AI+Agent+Infra+%C2%B7+LLM+Gateways+%C2%B7+Multimodal&fontSize=21" alt="AI Agent Infra · LLM Gateways · Multimodal">
+  <img src="https://img.shields.io/badge/AI%20Infrastructure%20Architect-b066fe?style=for-the-badge&logo=github&logoColor=white" alt="AI Infrastructure Architect">
+  <img src="https://img.shields.io/badge/AI%20Agent%20Infra%20%C2%B7%20LLM%20Gateways%20%C2%B7%20Multimodal-00f2fe?style=for-the-badge" alt="AI Agent Infra · LLM Gateways · Multimodal">
 </p>
 
 <br/>
@@ -25,10 +25,10 @@
 
 <table>
   <tr>
-    <td width="30%">⟐ <a href="https://github.com/hrygo/hotplex"><b>HotPlex</b></a><br><sub>Unified Access Layer for AI Coding Agent</sub></td>
-    <td width="18%"><img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"><br><sub>Apache-2.0</sub></td>
+    <td width="32%">⟐ <a href="https://github.com/hrygo/hotplex"><b>HotPlex</b></a><br><sub>Unified Access Layer for AI Coding Agent</sub></td>
+    <td width="16%"><img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"><br><sub>Apache-2.0</sub></td>
     <td width="20%"><b>1,351</b> commits<br><sub>286 in the last 90d</sub></td>
-    <td width="16%"><b>50 ★</b><br><sub>updated 2026-09-12</sub></td>
+    <td width="18%"><b>50 ★</b><br><sub>2026-09-12</sub></td>
     <td width="16%"><a href="https://github.com/hrygo/hotplex"><img src="https://img.shields.io/badge/-HotPlex-b066fe?style=flat-square&logo=github&logoColor=white" alt="HotPlex"></a></td>
   </tr>
   <tr>
