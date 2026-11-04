@@ -21,112 +21,42 @@
 
 <br/>
 
-### `[ ARCHITECTURE MATRIX ] // 核心工程矩阵`
+### `[ 01 // AGENT INFRA & WORKSPACES ]`
 
-#### 🌐 1. AI Agent Orchestration, Workspaces & Gateway
+- ⟐ **[HotPlex](https://github.com/hrygo/hotplex)** [![Go](https://img.shields.io/badge/Go-0081a2?style=flat-square&logo=go&logoColor=white)](https://github.com/hrygo/hotplex) [![Stars](https://img.shields.io/github/stars/hrygo/hotplex?style=flat-square&label=%E2%98%85&color=58a6ff)](https://github.com/hrygo/hotplex) [![Last Commit](https://img.shields.io/github/last-commit/hrygo/hotplex?style=flat-square&color=9556d7)](https://github.com/hrygo/hotplex)  
+  **Unified Access Layer for AI Coding Agents** — 高并发、基于 WebSocket 的 Agent 统一接入与路由层。打通本地自主 Worker（Claude Code、OpenCode）与企业 IM（Slack、飞书），具备多模型动态路由、自愈重试与零停机编排能力。
 
-<table>
-  <tr>
-    <td width="30%">⟐ <a href="https://github.com/hrygo/hotplex"><b>HotPlex</b></a><br><sub>Unified Access Layer for AI Coding Agents</sub></td>
-    <td width="15%"><img src="https://img.shields.io/badge/Go-0081a2?style=flat-square&logo=go&logoColor=white" alt="Go"><br><sub>Apache-2.0</sub></td>
-    <td width="20%"><img src="https://img.shields.io/github/stars/hrygo/hotplex?style=flat-square&label=Stars&color=58a6ff" alt="Stars"></td>
-    <td width="20%"><img src="https://img.shields.io/github/last-commit/hrygo/hotplex?style=flat-square&label=Last%20Active&color=9556d7" alt="Last Active"></td>
-    <td width="15%"><a href="https://github.com/hrygo/hotplex"><img src="https://img.shields.io/badge/Flagship-9556d7?style=flat-square" alt="Flagship"></a></td>
-  </tr>
-  <tr>
-    <td colspan="5">
-      高并发、基于 WebSocket 的 Agent 统一接入与路由层。打通本地自主 Worker（Claude Code、OpenCode）与企业 IM（Slack、飞书），具备多模型动态路由、自愈重试与零停机编排能力。
-    </td>
-  </tr>
-  <tr>
-    <td>💼 <a href="https://github.com/hrygo/Delegra"><b>Delegra</b></a><br><sub>Agent Management & Collaboration Workspace</sub></td>
-    <td><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"></td>
-    <td><img src="https://img.shields.io/github/stars/hrygo/Delegra?style=flat-square&label=Stars&color=58a6ff" alt="Stars"></td>
-    <td><img src="https://img.shields.io/github/last-commit/hrygo/Delegra?style=flat-square&label=Last%20Active&color=9556d7" alt="Last Active"></td>
-    <td><sub>Workspace</sub></td>
-  </tr>
-  <tr>
-    <td colspan="5">
-      面向实际工作场景的开源多 Agent 管理与协同工作台：组织、调度并委派 AI Agent 执行团队级实际工作任务。
-    </td>
-  </tr>
-  <tr>
-    <td>⚙️ <a href="https://github.com/hrygo/heluo-forge"><b>heluo-forge</b></a><br><sub>Enterprise Agentic Engineering Platform</sub></td>
-    <td><img src="https://img.shields.io/badge/Enterprise-24292f?style=flat-square" alt="Enterprise"></td>
-    <td><img src="https://img.shields.io/github/stars/hrygo/heluo-forge?style=flat-square&label=Stars&color=58a6ff" alt="Stars"></td>
-    <td><img src="https://img.shields.io/github/last-commit/hrygo/heluo-forge?style=flat-square&label=Last%20Active&color=9556d7" alt="Last Active"></td>
-    <td><sub>Platform</sub></td>
-  </tr>
-  <tr>
-    <td colspan="5">
-      企业级智能研发平台方案与 Agentic Workflows 落地扩展工程。
-    </td>
-  </tr>
-  <tr>
-    <td>🎬 <a href="https://github.com/hrygo/clawreel"><b>ClawReel</b></a><br><sub>Autonomous Pipeline with HITL Governance</sub></td>
-    <td><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"></td>
-    <td><img src="https://img.shields.io/github/stars/hrygo/clawreel?style=flat-square&label=Stars&color=58a6ff" alt="Stars"></td>
-    <td><img src="https://img.shields.io/github/last-commit/hrygo/clawreel?style=flat-square&label=Last%20Active&color=9556d7" alt="Last Active"></td>
-    <td><sub>Automation</sub></td>
-  </tr>
-  <tr>
-    <td colspan="5">
-      Agent 驱动的全流程自动化流水线，集成 Human-in-the-Loop (HITL) 决策检查点与算力成本治理。
-    </td>
-  </tr>
-</table>
+- 💼 **[Delegra](https://github.com/hrygo/Delegra)** [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/hrygo/Delegra) [![Stars](https://img.shields.io/github/stars/hrygo/Delegra?style=flat-square&label=%E2%98%85&color=58a6ff)](https://github.com/hrygo/Delegra) [![Last Commit](https://img.shields.io/github/last-commit/hrygo/Delegra?style=flat-square&color=9556d7)](https://github.com/hrygo/Delegra)  
+  **Agent Management & Collaboration Workspace** — 面向真实工作场景的开源多 Agent 管理与协同工作台：组织、调度并委派 AI Agent 执行团队级实际工作任务。
+
+- ⚙️ **[heluo-forge](https://github.com/hrygo/heluo-forge)** [![Enterprise](https://img.shields.io/badge/Enterprise-Platform-24292f?style=flat-square)](https://github.com/hrygo/heluo-forge) [![Stars](https://img.shields.io/github/stars/hrygo/heluo-forge?style=flat-square&label=%E2%98%85&color=58a6ff)](https://github.com/hrygo/heluo-forge) [![Last Commit](https://img.shields.io/github/last-commit/hrygo/heluo-forge?style=flat-square&color=9556d7)](https://github.com/hrygo/heluo-forge)  
+  **Enterprise Agentic Engineering Platform** — 河洛企业级智能研发平台方案与 Agentic Workflows 落地扩展工程。
+
+- 🎬 **[ClawReel](https://github.com/hrygo/clawreel)** [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/hrygo/clawreel) [![Stars](https://img.shields.io/github/stars/hrygo/clawreel?style=flat-square&label=%E2%98%85&color=58a6ff)](https://github.com/hrygo/clawreel) [![Last Commit](https://img.shields.io/github/last-commit/hrygo/clawreel?style=flat-square&color=9556d7)](https://github.com/hrygo/clawreel)  
+  **Autonomous Pipeline with HITL Governance** — Agent 驱动的全流程自动化流水线，集成 Human-in-the-Loop (HITL) 决策检查点与算力成本治理。
 
 <br/>
 
-#### 🎙️ 2. Speech Infrastructure (Cloud Cluster & Local-First Dual Runtimes)
+### `[ 02 // SPEECH & AUDIO RUNTIMES ]`
 
-<table>
-  <tr>
-    <td width="30%">⚡ <a href="https://github.com/hrygo/SpeechNexus"><b>SpeechNexus</b></a><br><sub>Enterprise Distributed Speech Platform</sub></td>
-    <td width="15%"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"><br><sub>vLLM / Omni</sub></td>
-    <td width="20%"><img src="https://img.shields.io/github/stars/hrygo/SpeechNexus?style=flat-square&label=Stars&color=58a6ff" alt="Stars"></td>
-    <td width="20%"><img src="https://img.shields.io/github/last-commit/hrygo/SpeechNexus?style=flat-square&label=Last%20Active&color=9556d7" alt="Last Active"></td>
-    <td width="15%"><sub>Server Cluster</sub></td>
-  </tr>
-  <tr>
-    <td colspan="5">
-      基于 <b>vLLM</b> 与 <b>vLLM-Omni</b> 构建的企业级全双工实时/离线语音底座。高吞吐并发调度、低延迟声学推理与一体化管理控制面。
-    </td>
-  </tr>
-  <tr>
-    <td>🍎 <a href="https://github.com/hrygo/SpeechRail"><b>SpeechRail</b></a><br><sub>Local-First ASR/TTS Engine (Apple Silicon)</sub></td>
-    <td><img src="https://img.shields.io/badge/Swift%20%7C%20Py-d04630?style=flat-square&logo=swift&logoColor=white" alt="Swift"></td>
-    <td><img src="https://img.shields.io/github/stars/hrygo/SpeechRail?style=flat-square&label=Stars&color=58a6ff" alt="Stars"></td>
-    <td><img src="https://img.shields.io/github/last-commit/hrygo/SpeechRail?style=flat-square&label=Last%20Active&color=9556d7" alt="Last Active"></td>
-    <td><sub>Edge / macOS</sub></td>
-  </tr>
-  <tr>
-    <td colspan="5">
-      专为 Apple Silicon (MLX) 深度优化的单机高可用语音服务。提供 OpenAI 兼容的 REST / Realtime WebSocket 协议，单机原生集成与微秒级治理。
-    </td>
-  </tr>
-  <tr>
-    <td>🔌 <a href="https://github.com/hrygo/dsh-speechrail-bundle"><b>dsh-speechrail-bundle</b></a><br><sub>Voice-Input Agent Integration Suite</sub></td>
-    <td><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TS"></td>
-    <td><img src="https://img.shields.io/github/stars/hrygo/dsh-speechrail-bundle?style=flat-square&label=Stars&color=58a6ff" alt="Stars"></td>
-    <td><img src="https://img.shields.io/github/last-commit/hrygo/dsh-speechrail-bundle?style=flat-square&label=Last%20Active&color=9556d7" alt="Last Active"></td>
-    <td><sub>Agent Tooling</sub></td>
-  </tr>
-  <tr>
-    <td colspan="5">
-      针对 Agent 交互环境设计的语音接入套件：打通浏览器采集与本地语音运行时，提供状态快照与原子级凭据治理。
-    </td>
-  </tr>
-</table>
+- ⚡ **[SpeechNexus](https://github.com/hrygo/SpeechNexus)** [![vLLM-Omni](https://img.shields.io/badge/vLLM--Omni-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/hrygo/SpeechNexus) [![Stars](https://img.shields.io/github/stars/hrygo/SpeechNexus?style=flat-square&label=%E2%98%85&color=58a6ff)](https://github.com/hrygo/SpeechNexus) [![Last Commit](https://img.shields.io/github/last-commit/hrygo/SpeechNexus?style=flat-square&color=9556d7)](https://github.com/hrygo/SpeechNexus)  
+  **Enterprise Distributed Speech Platform** — 基于 vLLM 与 vLLM-Omni 构建的企业级全双工实时/离线语音底座。高吞吐并发调度、低延迟声学推理与一体化 Web 管理控制面。
+
+- 🍎 **[SpeechRail](https://github.com/hrygo/SpeechRail)** [![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-MLX-d04630?style=flat-square&logo=apple&logoColor=white)](https://github.com/hrygo/SpeechRail) [![Stars](https://img.shields.io/github/stars/hrygo/SpeechRail?style=flat-square&label=%E2%98%85&color=58a6ff)](https://github.com/hrygo/SpeechRail) [![Last Commit](https://img.shields.io/github/last-commit/hrygo/SpeechRail?style=flat-square&color=9556d7)](https://github.com/hrygo/SpeechRail)  
+  **Local-First ASR/TTS Engine** — 专为 Apple Silicon (MLX) 深度优化的单机高可用语音服务。提供 OpenAI 兼容的 REST / Realtime WebSocket 协议，单机原生集成与微秒级治理。
+
+- 🔌 **[dsh-speechrail-bundle](https://github.com/hrygo/dsh-speechrail-bundle)** [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/hrygo/dsh-speechrail-bundle) [![Stars](https://img.shields.io/github/stars/hrygo/dsh-speechrail-bundle?style=flat-square&label=%E2%98%85&color=58a6ff)](https://github.com/hrygo/dsh-speechrail-bundle) [![Last Commit](https://img.shields.io/github/last-commit/hrygo/dsh-speechrail-bundle?style=flat-square&color=9556d7)](https://github.com/hrygo/dsh-speechrail-bundle)  
+  **Voice-Input Agent Integration Suite** — 针对 Agent 交互环境设计的语音接入套件：打通浏览器采集与本地语音运行时，提供状态快照与原子级凭据治理。
 
 <br/>
 
-#### 🕯️ 3. Generative Systems & Autonomous Applications
+### `[ 03 // GENERATIVE SYSTEMS & AUTONOMOUS APPS ]`
 
-- 🕯️ **[WorldofMysteries](https://github.com/hrygo/WorldofMysteries)** <img src="https://img.shields.io/github/stars/hrygo/WorldofMysteries?style=flat-square&label=Stars&color=58a6ff"> <img src="https://img.shields.io/github/last-commit/hrygo/WorldofMysteries?style=flat-square&label=Last%20Active&color=9556d7"><br>
-  《诡秘世界》AI 互动叙事系统 —— “世界不会重置，角色不会失忆”。维多利亚蒸汽朋克 × 克苏鲁神秘学。SwiftUI 原生客户端 + 状态机演化机制 + 本地端侧 LLM 运行时。
-- 🃏 **[lotm-card-art](https://github.com/hrygo/lotm-card-art)** <img src="https://img.shields.io/github/stars/hrygo/lotm-card-art?style=flat-square&label=Stars&color=58a6ff"><br>
-  生成式艺术制作脚手架：将提示词与生图管线转化为确定性、可版本复现的代码构建产物。
+- 🕯️ **[WorldofMysteries](https://github.com/hrygo/WorldofMysteries)** [![SwiftUI | Python](https://img.shields.io/badge/SwiftUI%20%7C%20Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/hrygo/WorldofMysteries) [![Stars](https://img.shields.io/github/stars/hrygo/WorldofMysteries?style=flat-square&label=%E2%98%85&color=58a6ff)](https://github.com/hrygo/WorldofMysteries) [![Last Commit](https://img.shields.io/github/last-commit/hrygo/WorldofMysteries?style=flat-square&color=9556d7)](https://github.com/hrygo/WorldofMysteries)  
+  **《诡秘世界》AI 互动叙事系统** — “世界不会重置，角色不会失忆”。维多利亚蒸汽朋克 × 克苏鲁神秘学。SwiftUI 原生客户端 + 状态机演化机制 + 本地端侧 LLM 运行时。
+
+- 🃏 **[lotm-card-art](https://github.com/hrygo/lotm-card-art)** [![Swift](https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=swift&logoColor=white)](https://github.com/hrygo/lotm-card-art) [![Stars](https://img.shields.io/github/stars/hrygo/lotm-card-art?style=flat-square&label=%E2%98%85&color=58a6ff)](https://github.com/hrygo/lotm-card-art)  
+  **生成式艺术制作脚手架** — 将提示词与生图管线转化为确定性、可版本复现的代码构建产物。
 
 <br/>
 
@@ -181,7 +111,7 @@ CORE FOCUS      Fault Tolerance · Backpressure Management · Finite State Machi
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=hrygo&background=00000000&border=00000000&ring=b066fe&fire=00f2fe&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff">
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=hrygo&background=00000000&border=00000000&ring=6366f1&fire=0969da&currStreakLabel=57606a&sideLabels=57606a&dates=57606a&currStreakNum=24292f&sideNums=24292f">
-    <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=hrygo&background=00000000&border=00000000&ring=b066fe&fire=00f2fe">
+    <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=hrygo&background=00000000&border=00000000&ring=6366f1&fire=0969da">
   </picture>
 </div>
 
