@@ -96,14 +96,14 @@ CORE FOCUS      Fault Tolerance · Backpressure Management · Finite State Machi
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=hrygo&show_icons=true&hide_border=true&bg_color=0d1117&title_color=b066fe&icon_color=00f2fe&text_color=8b949e&text_bold=false">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=hrygo&show_icons=true&hide_border=true&bg_color=ffffff&title_color=4f46e5&icon_color=0969da&text_color=57606a&text_bold=false">
-    <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=hrygo&show_icons=true&hide_border=true&bg_color=0d1117&title_color=b066fe&icon_color=00f2fe&text_color=8b949e&text_bold=false" width="48%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-anuraghazra1.vercel.app/api?username=hrygo&show_icons=true&hide_border=true&bg_color=0d1117&title_color=b066fe&icon_color=00f2fe&text_color=8b949e&text_bold=false">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-anuraghazra1.vercel.app/api?username=hrygo&show_icons=true&hide_border=true&bg_color=ffffff&title_color=4f46e5&icon_color=0969da&text_color=57606a&text_bold=false">
+    <img alt="GitHub Stats" src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=hrygo&show_icons=true&hide_border=true&bg_color=0d1117&title_color=b066fe&icon_color=00f2fe&text_color=8b949e&text_bold=false" width="48%">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=hrygo&layout=compact&hide_border=true&bg_color=0d1117&title_color=b066fe&text_color=8b949e&langs_count=8">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=hrygo&layout=compact&hide_border=true&bg_color=ffffff&title_color=4f46e5&text_color=57606a&langs_count=8">
-    <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hrygo&layout=compact&hide_border=true&bg_color=0d1117&title_color=b066fe&text_color=8b949e&langs_count=8" width="48%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=hrygo&layout=compact&hide_border=true&bg_color=0d1117&title_color=b066fe&text_color=8b949e&langs_count=8">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=hrygo&layout=compact&hide_border=true&bg_color=ffffff&title_color=4f46e5&text_color=57606a&langs_count=8">
+    <img alt="Top Languages" src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=hrygo&layout=compact&hide_border=true&bg_color=0d1117&title_color=b066fe&text_color=8b949e&langs_count=8" width="48%">
   </picture>
 </div>
 
@@ -111,7 +111,7 @@ CORE FOCUS      Fault Tolerance · Backpressure Management · Finite State Machi
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=hrygo&background=00000000&border=00000000&ring=b066fe&fire=00f2fe&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff">
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=hrygo&background=00000000&border=00000000&ring=6366f1&fire=0969da&currStreakLabel=57606a&sideLabels=57606a&dates=57606a&currStreakNum=24292f&sideNums=24292f">
-    <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=hrygo&background=00000000&border=00000000&ring=6366f1&fire=0969da">
+    <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=hrygo&background=00000000&border=00000000&ring=b066fe&fire=00f2fe">
   </picture>
 </div>
 
