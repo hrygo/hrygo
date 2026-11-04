@@ -15,12 +15,6 @@
 
 <br/>
 
-> **"Intelligence is non-deterministic. Infrastructure shouldn't be."**
->
-> — Architecting the boundary between non-deterministic AI and highly-reliable systems.
-
-<br/>
-
 ### `[ FLAGSHIP ] // 核心旗舰`
 
 **[HotPlex](https://github.com/hrygo/hotplex)** `Go` `Apache-2.0`
