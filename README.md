@@ -23,30 +23,44 @@
 
 ### `[ FLAGSHIP ] // 核心旗舰`
 
-- ⟐ **[HotPlex](https://github.com/hrygo/hotplex)** <img src="https://img.shields.io/badge/Go-0081a2?style=flat-square&logo=go&logoColor=white" alt="Go"> <img src="https://img.shields.io/github/stars/hrygo/hotplex?style=flat-square&color=58a6ff" alt="Stars"><br>
-  **Unified Access Layer for AI Coding Agents** — 高并发 WebSocket 架构，打通本地自主 Worker（Claude Code、OpenCode）与企业 IM（Slack、飞书）。内置多模型动态路由、自愈重试与零停机编排。
+**[HotPlex](https://github.com/hrygo/hotplex)** `Go` `Apache-2.0`
+> **Unified Access Layer for AI Coding Agents**
+>
+> 高并发 WebSocket 架构，打通本地自主 Worker（Claude Code、OpenCode）与企业 IM（Slack、飞书）。内置多模型动态路由、自愈重试与零停机编排。
 
 <br/>
 
 ### `[ ACTIVE PROJECTS ] // 重点方向与代表作`
 
-- 💼 **[Delegra](https://github.com/hrygo/Delegra)** <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"><br>
-  **Agent Management & Collaboration Workspace** — 面向实际工作场景的开源多 Agent 管理与协同工作台：组织、调度并委派 AI Agent 执行团队级真实工作任务。
+**[Delegra](https://github.com/hrygo/Delegra)** `TypeScript`
+> **Agent Management & Collaboration Workspace**
+>
+> 面向真实工作场景的开源多 Agent 管理与协同工作台：组织、调度并委派 AI Agent 执行团队级实际工作任务。
 
-- ⚡ **[SpeechNexus](https://github.com/hrygo/SpeechNexus)** <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"><br>
-  **Enterprise Distributed Speech Platform** — 基于 vLLM 与 vLLM-Omni 构建的企业级全双工实时/离线语音底座。支持生产级吞吐调度、低延迟推理与一体化管理控制面。
+**[SpeechNexus](https://github.com/hrygo/SpeechNexus)** `Python` · `vLLM`
+> **Enterprise Distributed Speech Platform**
+>
+> 基于 vLLM 与 vLLM-Omni 构建的企业级全双工实时/离线语音底座。支持生产级吞吐调度、低延迟推理与一体化管理控制面。
 
-- 🎙️ **[SpeechRail](https://github.com/hrygo/SpeechRail)** <img src="https://img.shields.io/badge/Swift-d04630?style=flat-square&logo=swift&logoColor=white" alt="Swift"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"><br>
-  **Local-First ASR/TTS Speech Service** — 专为 Apple Silicon (MLX) 深度优化的单机高可用语音服务。完整 OpenAI 兼容 REST / Realtime WebSocket 协议，单机微秒级治理与零外网依赖。
+**[SpeechRail](https://github.com/hrygo/SpeechRail)** `Swift` · `Python` · `Apple Silicon`
+> **Local-First ASR/TTS Speech Service**
+>
+> 专为 Apple Silicon (MLX) 深度优化的单机高可用语音服务。完整 OpenAI 兼容 REST / Realtime WebSocket 协议，单机微秒级治理与零外网依赖。
 
-- ⚙️ **[heluo-forge](https://github.com/hrygo/heluo-forge)** <img src="https://img.shields.io/badge/Platform-24292f?style=flat-square" alt="Platform"><br>
-  **Enterprise Agentic Engineering Platform** — 河洛企业级智能研发平台方案与 Agentic Workflows 落地扩展工程。
+**[heluo-forge](https://github.com/hrygo/heluo-forge)** `Platform`
+> **Enterprise Agentic Engineering Platform**
+>
+> 河洛企业级智能研发平台方案与 Agentic Workflows 落地扩展工程。
 
-- 🕯️ **[WorldofMysteries](https://github.com/hrygo/WorldofMysteries)** <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/SwiftUI-007ACC?style=flat-square&logo=swift&logoColor=white" alt="SwiftUI"><br>
-  **《诡秘世界》AI 互动叙事游戏** — “世界不会重置，角色不会失忆”。维多利亚蒸汽朋克 × 克苏鲁神秘学，宇宙按回合持续演化。SwiftUI macOS 原生客户端 + 本地 LLM 引擎。
+**[WorldofMysteries](https://github.com/hrygo/WorldofMysteries)** `SwiftUI` · `Python`
+> **《诡秘世界》AI 互动叙事游戏**
+>
+> “世界不会重置，角色不会失忆”。维多利亚蒸汽朋克 × 克苏鲁神秘学，宇宙按回合持续演化。SwiftUI macOS 原生客户端 + 本地 LLM 引擎。
 
-- 🎬 **[ClawReel](https://github.com/hrygo/clawreel)** <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"><br>
-  **Autonomous Pipeline with HITL Governance** — Agent 驱动的全流程自动化流水线，集成 Human-in-the-Loop (HITL) 决策检查点与算力成本治理。
+**[ClawReel](https://github.com/hrygo/clawreel)** `Python`
+> **Autonomous Pipeline with HITL Governance**
+>
+> Agent 驱动的全流程自动化流水线，集成 Human-in-the-Loop (HITL) 决策检查点与算力成本治理。
 
 <br/>
 
@@ -74,9 +88,9 @@ CORE FOCUS      Fault Tolerance · Backpressure Management · Finite State Machi
 ### `[ ARCHIVE ] // 更多工程沉淀`
 
 <details>
-<summary><b>展开查看更多项目</b></summary>
+<summary><b>展开查看更多项目 (10+)</b></summary>
 
-[![gosms](https://img.shields.io/badge/gosms-51%E2%98%85-008289?style=flat-square&logo=go&logoColor=white)](https://github.com/hrygo/gosms) · [Hikmah](https://github.com/hrygo/hikmah) · [ImageHive](https://github.com/hrygo/ImageHive) · [lotm-card-art](https://github.com/hrygo/lotm-card-art) · [dsh-speechrail-bundle](https://github.com/hrygo/dsh-speechrail-bundle) · [SparkForge](https://github.com/hrygo/SparkForge) · [The Council](https://github.com/hrygo/council) · [openclaw-watchdog](https://github.com/hrygo/openclaw-watchdog) · [security-shield](https://github.com/hrygo/security-shield) · [SpecBuilder](https://github.com/hrygo/SpecBuilder) · [Sona](https://github.com/hrygo/sona) · [echomind](https://github.com/hrygo/echomind) · [phantom-stream](https://github.com/hrygo/phantom-stream) · [obsidian-skills](https://github.com/hrygo/obsidian-skills)
+[gosms](https://github.com/hrygo/gosms) (51★) · [Hikmah](https://github.com/hrygo/hikmah) · [ImageHive](https://github.com/hrygo/ImageHive) · [lotm-card-art](https://github.com/hrygo/lotm-card-art) · [dsh-speechrail-bundle](https://github.com/hrygo/dsh-speechrail-bundle) · [SparkForge](https://github.com/hrygo/SparkForge) · [The Council](https://github.com/hrygo/council) · [openclaw-watchdog](https://github.com/hrygo/openclaw-watchdog) · [security-shield](https://github.com/hrygo/security-shield) · [SpecBuilder](https://github.com/hrygo/SpecBuilder) · [Sona](https://github.com/hrygo/sona) · [echomind](https://github.com/hrygo/echomind) · [phantom-stream](https://github.com/hrygo/phantom-stream) · [obsidian-skills](https://github.com/hrygo/obsidian-skills)
 
 </details>
 
